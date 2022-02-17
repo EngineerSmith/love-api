@@ -887,6 +887,11 @@ return {
                             name = 'name',
                             description = 'The new identity that will be used as write directory.',
                         },
+                        {
+                            type = 'boolean',
+                            name = 'appendidentity'
+                            description = 'This flag determines if game directory should be searched first then save directory (true) or otherwise (false)',
+                        },
                     },
                 },
             },
